@@ -1,9 +1,11 @@
 # Quantum Image Classification for Alzheimer's Detection
+
+### We made this project and this project made use <ins> the winner of IBM Qiskit Fall Fest'2025 Hackathon.</ins>
+
+
 Qualz is a quantum computing algorithm that classifies MRI scans as "with dementia" or "no dementia." By utilizing quantum computing, it aims to enhance efficiency, especially in reducing space complexity compared to classical methods. This approach offers faster, scalable analysis, improving diagnostic accuracy and decision-making in healthcare
 
 We use the [FRQI](https://learn.qiskit.org/course/ch-applications/flexible-representation-of-quantum-images-frqi) algorithm to represent an MRI scan image into quantum states and calculate a reference image of a scan with dementia. The reference image is derived from the mean of multiple images. Test images are compared against this reference image using a quantum algorithm that converts the image to quantum states via FRQI. We then calculate the fidelity between the reference image and a test image, convert this fidelity to euclidean distance, and classify the image based on a threshold.
-
-#### <ins> We made this project and this project made use the winner of IBM Qiskit Fall Fest'2025 Hackathon.</ins>
 
 ## How to use
 
